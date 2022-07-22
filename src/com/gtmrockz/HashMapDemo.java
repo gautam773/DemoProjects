@@ -22,6 +22,14 @@ public class HashMapDemo {
 					System.out.println(s.getKey());
 				}
 				});
+	familyMap.entrySet().forEach(
+				s -> {
+					
+					if(s.getValue() == "Susila")
+				{
+					System.out.println(s.getKey());
+				}
+				});	
 				
 	}	
 
